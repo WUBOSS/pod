@@ -13,6 +13,7 @@
 		8D231A061F8DAFF700A8558E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D231A041F8DAFF700A8558E /* Main.storyboard */; };
 		8D231A081F8DAFF700A8558E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D231A071F8DAFF700A8558E /* Assets.xcassets */; };
 		8D231A0B1F8DAFF700A8558E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D231A091F8DAFF700A8558E /* LaunchScreen.storyboard */; };
+		8D231A151F8DB04600A8558E /* alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D231A141F8DB04600A8558E /* alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8D231A071F8DAFF700A8558E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D231A0A1F8DAFF700A8558E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D231A0C1F8DAFF800A8558E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D231A131F8DB04600A8558E /* alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alert.h; sourceTree = "<group>"; };
+		8D231A141F8DB04600A8558E /* alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		8D2319EF1F8DAFF700A8558E = {
 			isa = PBXGroup;
 			children = (
+				8D231A121F8DB02600A8558E /* pod */,
 				8D2319FA1F8DAFF700A8558E /* podText */,
 				8D2319F91F8DAFF700A8558E /* Products */,
 			);
@@ -77,6 +81,15 @@
 				8D2319FC1F8DAFF700A8558E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D231A121F8DB02600A8558E /* pod */ = {
+			isa = PBXGroup;
+			children = (
+				8D231A131F8DB04600A8558E /* alert.h */,
+				8D231A141F8DB04600A8558E /* alert.m */,
+			);
+			path = pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			files = (
 				8D231A031F8DAFF700A8558E /* ViewController.m in Sources */,
 				8D231A001F8DAFF700A8558E /* AppDelegate.m in Sources */,
+				8D231A151F8DB04600A8558E /* alert.m in Sources */,
 				8D2319FD1F8DAFF700A8558E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
